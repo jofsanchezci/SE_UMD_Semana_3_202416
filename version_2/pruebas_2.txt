@@ -1,0 +1,38 @@
+
+# Pruebas para el sistema experto
+# Formato: hecho=valor (True o False)
+
+# Prueba 1: Batería muerta
+auto_no_arranca=True
+luces_no_se_encieden=True
+tanque_vacio=False
+
+# Prueba 2: Sin gasolina
+auto_no_arranca=True
+luces_no_se_encieden=False
+tanque_vacio=True
+
+# Prueba 3: Motor falla
+auto_arranca=True
+motor_falla=True
+
+# Prueba 4: Todo funciona correctamente
+auto_no_arranca=False
+luces_no_se_encieden=False
+tanque_vacio=False
+auto_arranca=True
+motor_falla=False
+
+# Prueba 5: Problema con el motor y batería
+auto_no_arranca=True
+luces_no_se_encieden=True
+tanque_vacio=False
+auto_arranca=False
+motor_falla=True
+
+# Prueba 6: Sin gasolina y motor falla
+auto_no_arranca=True
+luces_no_se_encieden=False
+tanque_vacio=True
+auto_arranca=True
+motor_falla=True

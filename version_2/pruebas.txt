@@ -1,0 +1,17 @@
+
+# Cada prueba consiste en un conjunto de hechos para probar el sistema experto
+# Formato: hecho=valor (True o False)
+
+# Prueba 1: Batería muerta
+auto_no_arranca=True
+luces_no_se_encieden=True
+tanque_vacio=False
+
+# Prueba 2: Sin gasolina
+auto_no_arranca=True
+luces_no_se_encieden=False
+tanque_vacio=True
+
+# Prueba 3: Motor falla
+auto_arranca=True
+motor_falla=True
